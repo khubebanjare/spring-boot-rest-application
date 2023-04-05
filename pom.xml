@@ -12,6 +12,7 @@
 	<groupId>org.kk.spring.boot.main</groupId>
 	<artifactId>SpringBootRestApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>SpringBootRestApplication</name>
 	<description>Spring Boot Rest Application</description>
 	<properties>
