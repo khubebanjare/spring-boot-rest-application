@@ -55,6 +55,7 @@ public class EmployeeController {
 		return employees;
 	}
 	
+	@SuppressWarnings("null")
 	@GetMapping(value = "/employees/{empId}", produces = "application/json")
 	public String getEmployeeById(@PathVariable("empId") Long empId) {
 		Optional<Employee> employee = null; 
